@@ -38,8 +38,6 @@
 Muốn hiểu được cơ chế hoạt động cơ bản của RabbitMQ, bạn có thể tưởng tượng rằng nó hoạt động giống như một bưu điện. Dựa theo quy ước RabbitMQ, site A là Producer và các site khác là Consumer. Đây là những người nhận các thông điệp được gửi từ site A. Lúc này, producer sẽ kết nối tới Message broker để thực hiện nhiệm vụ đẩy tin nhắn vào hàng đợi (queue), Consumer sẽ nhận tin nhắn đó qua hệ thống Message Broker. 
 
 
-![markdown](https://minio.2soft.top/tek4/public/publicfile/8491/attachment/8582f1449707eadc4dad3b32120d5acf.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=minio%2F20221209%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221209T075232Z&X-Amz-Expires=900&X-Amz-SignedHeaders=host&X-Amz-Signature=aa17e7070ab1063685c506a4c9b356af01ea8c03d4f14b16e70e0fdcb98ebded)
-
 ---
 **4. Những lợi ích mà RabbitMQ mang lại**
 
