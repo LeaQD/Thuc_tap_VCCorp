@@ -58,3 +58,7 @@ Muốn hiểu được cơ chế hoạt động cơ bản của RabbitMQ, bạn 
 - Direct Exchange là phương thức được sử dụng trong quá trình trao đổi trực tiếp, định hướng message vào queue thông qua routing key. Các loại exchange này được dùng cho định tuyến tin nhắn đơn hướng. Thông qua một routing key, mỗi queue lại ràng buộc với một Direct Exchange. 
 - Headers Exchange là một định tuyến có nhiều thuộc tính, thực hiện dưới dạng Header của message, định hướng tất cả trên Header thay vì routing key. Một message có giá trị của header  bằng giá trị ràng buộc sẽ được đánh giá là phù hợp. 
 - Fanout Exchange là phương thức hỗ trợ định tuyến Message tới toàn bộ queue đã kết hợp với bất cứ một routing key nào. Nó được đánh giá là exchange hữu ích cho người dùng khi muốn gửi message tới các ứng dụng khác nhau. 
+
+
+--- 
+Nguồn tham khảo: [Tìm hiểu về RabbitMQ](https://gpcoder.com/6828-gioi-thieu-rabbitmq/)
