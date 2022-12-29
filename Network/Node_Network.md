@@ -1,4 +1,4 @@
-# Prroxy là gì? 
+# Proxy là gì? 
 
 - Proxy là một server nằm giữa máy tính người dùng và website mà họ truy cập.
 
