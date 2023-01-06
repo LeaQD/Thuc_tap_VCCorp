@@ -1,6 +1,6 @@
 **Connect to MySQL** 
 
-    mysql -u root -p
+```mysql -u root -p```
 
 -u: user 
 
@@ -10,16 +10,16 @@ root: the MySQL username
 
 **View Database** 
 
-    mysql> SHOW DATABASES;
+```mysql> SHOW DATABASES;```
 
 **Create Databases** 
 
 
-    mysql> CREATE DATABASE IF NOT EXISTS database_name;
+```mysql> CREATE DATABASE IF NOT EXISTS database_name;```
 
 **Select a Database** 
 
-    mysql > USE database_name
+```mysql > USE database_name```
 
 **Create a Table**
 
@@ -34,11 +34,11 @@ root: the MySQL username
 
 **View Tables** 
 
-    mysql> SHOW TABLES;
+```mysql> SHOW TABLES;```
 
 **View Table Structure** 
 
-    mysql> DESC tb1;
+```mysql> DESC tb1;```
 
 **Insert Data**
 
@@ -62,3 +62,6 @@ root: the MySQL username
 
     mysql> DROP DATABASE IF EXISTS db1;
 
+----
+
+[Nguồn tham khảo](https://linuxhint.com/mysql-commands-tutorial/)
