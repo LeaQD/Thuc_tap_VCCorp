@@ -1,6 +1,6 @@
 **Connect to MySQL** 
 
-```mysql -u root -p```
+    mysql -u root -p
 
 -u: user 
 
@@ -10,16 +10,16 @@ root: the MySQL username
 
 **View Database** 
 
-```mysql> SHOW DATABASES;```
+    mysql> SHOW DATABASES;
 
 **Create Databases** 
 
 
-```mysql> CREATE DATABASE IF NOT EXISTS database_name;```
+    mysql> CREATE DATABASE IF NOT EXISTS database_name;
 
 **Select a Database** 
 
-```mysql > USE database_name```
+    mysql > USE database_name
 
 **Create a Table**
 
@@ -34,5 +34,31 @@ root: the MySQL username
 
 **View Tables** 
 
-```mysql> SHOW TABLES;```
+    mysql> SHOW TABLES;
+
+**View Table Structure** 
+
+    mysql> DESC tb1;
+
+**Insert Data**
+
+    mysql> INSERT INTO tb1(col1, col2)
+    VALUES (1, "value1"),
+    (2, "value2");
+
+**View Table Data** 
+
+    mysql> SELECT * FROM tb1;
+
+**Delete Data from Table** 
+
+    mysql> DELETE FROM tb1 WHERE col1 = 1;
+
+**Delete a Table** 
+
+    mysql> DROP TABLE tb1;
+
+**Delect a Database** 
+
+    mysql> DROP DATABASE IF EXISTS db1;
 
