@@ -32,5 +32,6 @@
    - Nhóm 4: Đi theo hướng công nghệ. Nhóm này có công cụ hiệu ứng đồ họa và không cần chỉnh nhiều.
 
 --- 
+
 Nguồn tham khảo: [Distro Linux](https://hostingviet.vn/distro-linux-la-gi)
 
